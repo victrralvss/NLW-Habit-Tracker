@@ -7,7 +7,7 @@ export function Header() {
             <img src={logo} alt="App Logo" className="w-36"/>
             <button
                 type="button"
-                className="border border-violet-700 rounded-lg px-6 py-2 flex gap-3 items-center hover:border-violet-500 font-bold">
+                className="font-bold border border-violet-500 rounded-lg px-6 py-2 flex gap-3 items-center hover:border-violet-800 hover:bg-hoverbg">
                 <Plus size={20} className="text-cyan-400"/>
                 New Habit
             </button>
