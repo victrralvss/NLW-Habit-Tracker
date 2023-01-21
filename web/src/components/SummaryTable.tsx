@@ -1,5 +1,5 @@
 import {HabitDay} from "./HabitDay";
-import {generateDaysPassed} from "../util/generate-days-passed";
+import {generateDaysPassed} from "../utils/generate-days-passed";
 
 const weekDays = ['S', 'M', 'T', 'W', 'T', 'F', 'S']
 
