@@ -4,7 +4,7 @@ import {appRoutes} from "./lib/routes";
 
 const app = Fastify()
 
-/* HTTP Methods */
+
 app.register(cors)
 app.register(appRoutes)
 
