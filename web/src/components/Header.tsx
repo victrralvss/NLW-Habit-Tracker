@@ -4,8 +4,6 @@ import {NewHabitForm} from "./NewHabitForm";
 import {useState} from "react";
 import * as Dialog from '@radix-ui/react-dialog';
 
-
-
 export function Header() {
     const[ isModalOpen, setIsModalOpen ] = useState(false)
     function buttonClicked() {
