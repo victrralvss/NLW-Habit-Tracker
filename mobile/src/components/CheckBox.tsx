@@ -26,7 +26,7 @@ export function CheckBox({title, checked=false, ...rest }:Props) {
                         />
                     </View>
                 :
-                    <View className="h-8 w-8 bg-zinc-900 rounded-lg" />
+                    <View className="h-8 w-8 bg-zinc-900 rounded-lg font-semibold text-3xl" />
             }
 
             <Text className="text-zinc-200 ml-3">
