@@ -27,18 +27,21 @@ export function Habit() {
                 contentContainerStyle={{paddingBottom: 100}}
             >
                 <ReturnButton/>
-                <Text className="mt-8 text-3xl text-zinc-400 font-semibold text-base">
+                <Text className="mt-8 text-2xl text-zinc-400 font-semibold text-base">
                     {dayOfWeek}
                 </Text>
 
-                <Text className="mt-3 text-6xl text-zinc-200 font-extrabold ">
+                <Text className="mt-3 text-4xl text-zinc-200 font-extrabold ">
                     {dayMonth}
                 </Text>
 
                 <ProgressBar progress={50} />
 
                 <View className="mt-6">
-                    <CheckBox title="Meditar" checked={false} />
+                    <CheckBox
+                        title="Meditar"
+                        checked={false}
+                    />
                 </View>
 
             </ScrollView>
